@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* colors */
+
+:root {
+  --primary: #ff451b;
+  --secondary: #ffb324;
+  --white: white;
+  --black-1: #262525;
+  --black-2: #000000;
+  --black-3: #0f172a;
+  --black-4: #0f172a;
+  --navy-1: #f1faff;
+  --gray-1: #cacdd3;
+  --gray-2: #888888;
+  --gray-3: #354357;
+
+  --barlow-font: "Barlow", sans-serif;
+}
+
+header {
+  background-color: var(--navy-1);
+  padding-bottom: 50px;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin: 24px 12px;
+  color: var(--black-1);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.download {
+  background-color: var(--secondary);
+  padding: 12px 24px;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.hero-info > h3 {
+  font-family: var(--barlow-font);
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: var(--black-3);
+  margin-bottom: 30px;
+}
+
+.hero-info > h1 {
+  font-family: var(--barlow-font);
+  font-weight: 600;
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--black-3);
+  margin-bottom: 30px;
+}
+
+.hero-info > h4 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  font-family: sans-serif;
+  color: var(--black-4);
+  margin-bottom: 30px;
+}
+
+.btn-red {
+  background-color: var(--primary);
+  padding: 10px 34px;
+  font-weight: 500;
+}
+
+.btn-red:hover {
+  background-color: var(--secondary);
+}
+
+.btn-white {
+  padding: 10px 34px;
+  font-weight: 500;
+}
+
+.btn-white:hover {
+  background-color: var(--secondary);
+  color: var(--white) !important;
+}
+
+/* about */
+
+.about {
+  margin-top: 32px;
+}
+
+.text-top-card > span {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text-top-card > h3 {
+  font-weight: 700;
+}
+
+.about-item {
+  transition: 0.5s;
+}
+
+.about-item:hover {
+  margin-top: -24px;
+}
+
+/* section titles */
+
+.section-title {
+  font-weight: 500;
+  font-size: 48px;
+  color: var(--black-2);
+  margin-bottom: 15px;
+}
+
+.section-top-title {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--primary);
+  margin-bottom: 5px;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--gray-2);
+  margin-bottom: 15px;
+}
+
+
+/* services */
+
+
+.services{
+    margin-top: 120px;
+}
+
+.service-card{
+    border: none;
+    box-shadow: 0px 0px 20px rgba(255, 69, 27, 0.2);
+    border-radius: 10px;
+    padding: 70px 87px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: 0.1s;
+}
+
+.service-card:hover{
+    border: 3px solid var(--primary);
+}
+
+
+.service-img{
+    background-color: var(--primary);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 50%;
+}
+
+
+.counter{
+    background-color: var(--primary);
+    margin-top: 80px;
+}
+
+
+.counter-item{
+    text-align: center;
+    padding: 110px 0px;
+}
+
+.counter-item>h1{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.counter-item>h3{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+
+/* skill */
+
+.skills{
+    margin-top: 120px;
+}
+
+.skills-info{
+    padding-left: 70px;
+}
+
+.skill{
+    margin-top: 50px;
+}
+
+/* portfolio */
+
+.portfolio{
+    margin-top: 120px;
+}
+
+/* contact */
+
+
+.contact{
+    background-color: var(--primary);
+    margin-top: 120px;
+    padding: 60px 0px;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--primary);
+    padding: 60px;
+    border-top: 2px solid var(--white);
+}
